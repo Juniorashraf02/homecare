@@ -31,7 +31,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`bg-white text-white p-4 ${isMobileMenuOpen ? 'md:bg-gray-100' : ''}`}>
+        <nav className={`bg-white text-white p-4 shadow-md ${isMobileMenuOpen ? 'md:bg-gray-100' : ''}`}>
             <div className="container mx-auto flex justify-between items-center">
                 <div className="flex items-center space-x-4">
                     <a href="#" className="">
@@ -144,12 +144,12 @@ const Navbar = () => {
                     <div className="border-l border-sky-600 h-6"></div>
                     <a href="tel:123-456-7890" className="text-xl text-sky-600 border-b-2 border-sky-600 font-bold">123-456-7890</a>
                     <a href="#" className="text-xl text-sky-600">
-                        <button className="uppercase font-bold bg-sky-800 px-5 py-2.5 text-white  rounded-md text-xs">
+                        <button className="uppercase font-bold bg-sky-800 px-5 py-2.5 text-white  rounded-md text-xs hover:bg-gray-400 hover:text-black">
                             request care
                         </button>
                     </a>
                     <a href="#" className="text-xl text-sky-600">
-                    <button className="uppercase font-bold bg-rose-700 px-5 py-2.5 text-white  rounded-md text-xs">
+                    <button className="uppercase font-bold bg-rose-700 px-5 py-2.5 text-white  rounded-md text-xs hover:bg-rose-400 hover:text-black">
                             careers
                         </button>
                     </a>
